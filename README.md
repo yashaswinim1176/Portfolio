@@ -1,108 +1,83 @@
-# 🏰 Castle Scroll Animation — Portfolio
+# Yashaswini M — AI & ML Portfolio
 
-A cinematic **scroll-driven frame animation** built with pure HTML5 Canvas and vanilla JavaScript. A majestic Gothic castle on a rocky ocean island at sunset, brought to life by scrolling. No frameworks. No dependencies.
+<div align="center">
 
-**🔗 Live Demo → [https://yashaswinim1176portfolio.netlify.app](https://yashaswinim1176portfolio.netlify.app)**
-
----
-
-## ✨ Features
-
-| Feature | Detail |
-|---|---|
-| **150-frame animation** | High-quality JPEG frames from source footage |
-| **Scroll-driven playback** | Scroll position maps 1:1 to frame index |
-| **Smooth lerp interpolation** | Buttery-smooth frame transitions at every RAF tick |
-| **HiDPI / Retina support** | Canvas scaled by `devicePixelRatio` — crisp on all screens |
-| **Cover-fit framing** | Image always fills the full viewport — no letterboxing |
-| **Preloader with progress** | Minimal white bar shows % loaded; fades out when ready |
-| **Zero dependencies** | Pure HTML + CSS + Vanilla JS |
+[![Live Demo](https://img.shields.io/badge/Live%20Website-Click%20Here-00E5FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://yashaswinim1176.github.io/Portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yashaswini-m-536369395)
+[![SGPA](https://img.shields.io/badge/1st%20Sem%20SGPA-9.67-FFD700?style=for-the-badge&logo=academic&logoColor=black)](https://yashaswinim1176.github.io/Portfolio/#about)
 
 ---
 
-## 📁 Project Structure
+### 🌐 [Click Here to View Live Portfolio Website](https://yashaswinim1176.github.io/Portfolio/)
 
-```
-Portfolio/
-├── index.html                       # Personal portfolio page
-├── netlify.toml                     # Netlify deploy config
-├── server.ps1                       # Local dev server (Windows / PowerShell)
-├── README.md                        # This file
-└── ezgif-casteljpg/                 # Castle scroll animation
-    ├── index.html                   # Animation page (canvas + scroll logic)
-    ├── ezgif-frame-001.jpg          # Animation frames 001 – 150
-    ├── ...
-    └── ezgif-frame-150.jpg
-```
+</div>
 
 ---
 
-## 🚀 Running Locally
+## 📌 Overview
 
-### PowerShell Server (Windows)
+Welcome to the official portfolio of **Yashaswini M**, a first-year **Artificial Intelligence and Machine Learning (AI & ML)** Engineering student at **Mysuru Royal Institute of Technology**.
 
-```powershell
-# From the project root
-powershell -ExecutionPolicy Bypass -File server.ps1
-```
-
-Then open → **http://localhost:8080**
-
-### VS Code Live Server
-
-Install [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), right-click `ezgif-casteljpg/index.html` → **Open with Live Server**.
-
-### Python / Node
-
-```bash
-# Python 3
-python -m http.server 8080
-
-# Node
-npx serve .
-```
-
-> ⚠️ Must be served over **HTTP** — `file://` URLs will block images due to CORS.
+This portfolio features a full 3D interactive **castle-frame scroll animation engine**, responsive glassmorphism UI styled in **Warm Ivory (`#F5E6D3`)** with high-contrast text, interactive modal popups, and live contact forms.
 
 ---
 
-## 🌐 Netlify Deployment
+## 🎓 Academic Profile & Education
 
-This repo auto-deploys via Netlify on every push to `main`.
-
-- **Publish directory:** `ezgif-casteljpg/`
-- **JPEG frames** → `Cache-Control: immutable, max-age=31536000` (1 year)
-- **HTML files** → `Cache-Control: no-cache` (always fresh on deploy)
-
----
-
-## ⚙️ Customisation
-
-Inside `ezgif-casteljpg/index.html`:
-
-```js
-const TOTAL = 150;   // number of frames
-const LERP  = 0.09;  // smoothing — lower = silkier, higher = snappier
-```
-
-| `LERP` | Feel |
-|---|---|
-| `0.05` | Dreamy / cinematic |
-| `0.09` | ✅ Default — smooth & responsive |
-| `0.15` | Snappier / more direct |
+| Degree / School | Institution | Details / Grade | Year |
+| :--- | :--- | :--- | :--- |
+| **BE in AI & ML** | Mysuru Royal Institute of Technology | **9.67 SGPA** *(1st Semester)* | 2026 – 2029 |
+| **12th Standard (Science)** | Mandavya Excellence PU College | **95.16%** | Completed |
+| **10th Standard (SSLC)** | Poorna Prajna Convent | **98.24%** | Completed |
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Featured Projects
 
-- **HTML5 Canvas API** — frame rendering
-- **`requestAnimationFrame`** — 60 fps animation loop
-- **Linear interpolation (lerp)** — smooth transitions
-- **`window.devicePixelRatio`** — HiDPI support
-- **Netlify** — hosting & global CDN
+### 1. 📱 [Smart Challan Generator](https://yashaswinim1176.github.io/Portfolio/#projects)
+- **Category:** FinTech & OCR AI App
+- **Description:** Designed to bridge digital financial access for rural populations. Uses smartphone camera scanning (OCR) to read passbook details and automatically populate deposit and withdrawal banking challans.
+- **Tech Stack:** Python, OpenCV OCR, Computer Vision, Web/App Dev
+
+### 2. 👁️ [Neural Hand Interface](https://yashaswinim1176.github.io/Portfolio/#projects)
+- **Category:** Computer Vision & AI Gesture System
+- **Description:** Interactive AI system using real-time webcam hand tracking to manipulate and control virtual 2D digital objects smoothly without physical touch.
+- **Tech Stack:** Python, OpenCV, MediaPipe, Real-Time Hand Tracking
+
+### 3. 🧊 [Gesture Voxel](https://yashaswinim1176.github.io/Portfolio/#projects)
+- **Category:** 3D Spatial Computing & Motion Control
+- **Description:** Real-time 3D voxel cube controller driven by hand pinch gestures and vertical scaling motions detected via webcam.
+- **Tech Stack:** Python, 3D OpenGL, Gesture Tracking, Motion Control
 
 ---
 
-## 📄 License
+## 🛠️ Technical Capabilities & Skills
 
-MIT — free to use, modify, and distribute.
+- **AI & Prompt Engineering:** Prompt Expert, AI Tools, Gen AI Systems, LLM Workflows
+- **Programming & Languages:** Python, C, C#, Web Development, App Development
+- **Creative & Motion:** 3D Animations, Video Editing, Computer Vision, UI/UX Design
+- **Spoken Languages:** English, Hindi, Kannada
+
+---
+
+## 🏆 Certifications & Honors
+
+- 🎓 **Outskill Certification:** Completion Certificate in Gen AI Domain
+- ⭐ **HackerRank Certified:** Verified Proficiency in C# and Python
+- 🏆 **Quest MRIT:** 1st Runner Up in Technical Competition
+
+---
+
+## 📬 Contact & Connect
+
+- **Email:** [yashaswinim1176@gmail.com](mailto:yashaswinim1176@gmail.com)
+- **Phone:** [+91 6362353031](tel:+916362353031)
+- **Location:** Maddur, Mandya District, Karnataka, India
+- **LinkedIn:** [yashaswini-m-536369395](https://www.linkedin.com/in/yashaswini-m-536369395)
+- **GitHub:** [@yashaswinim1176](https://github.com/yashaswinim1176)
+
+---
+
+<div align="center">
+  <i>Designed & Developed by Yashaswini M © 2026</i>
+</div>
